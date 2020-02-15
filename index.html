@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta name="description" content="Front-end Developer">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./favicon.png">
+    <title>Home - Matea Popovska</title>
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div id="wrapper">
+        <main id="content">
+            <header id="header">
+                <nav>
+                    <a href="./index.html" class="active menu-item">About</a>
+                    <a href="./pages/cv.html" class="menu-item">My CV</a>
+                    <div class="menu-item dropdown">
+                        <span class="dropbtn">Projects
+                            <i class="fa fa-caret-down"></i>
+                        </span>
+                        <div class="dropdown-content">
+                            <a href="./pages/bus-project.html">Bus Ticketing</a>
+                            <a href="./pages/dentist-project.html">CRM Practice Aquisition</a>
+                        </div>
+                    </div>
+                </nav>
+            </header>
+
+            <div id="home-page" class="page">
+                <div class="banner">
+                    <div class="banner-wrapper middle">
+                        <div class="banner-image-wrapper">
+                            <picture>
+                                <source type="image/webp" media="(min-width: 700px)" srcset="./images/profile.webp">
+                                <img src="./images/profile.png" class="banner-image" alt="A picture of me" />
+                            </picture>
+                        </div>
+                        <header class="banner-details">
+                            <h1 class="banner-title">Matea Popovska</h1>
+                            <div class="job-title">Front-end Developer</div>
+
+                            <p class="contact-detail">Location:</p>
+                            <span>Skopje, Macedonia</span>
+
+                            <p class="contact-detail">E-mail:</p>
+                            <span>mateapopovska@gmail.com</span>
+
+                            <p class="contact-detail">Started working:</p>
+                            <span id="work-experience"></span>
+                        </header>
+                    </div>
+                </div>
+                <div class="grey-section">
+                    <div class="social-icons-wrapper middle">
+                        <div class="social-icons">
+                            <a href="https://www.linkedin.com/in/matea-popovska-a9a03a95/" title="LinkedIn"
+                                target="_blank" rel="noopener"><i class="fa fa-linkedin-square"></i></a>
+                            <a href="https://github.com/mpopovska" title="GitHub" target="_blank" rel="noopener"><i
+                                    class="fa fa-github"></i></a>
+                        </div>
+
+                        <button class="button-style" onclick="sendEmail()"><i class="fa fa-globe"
+                                style="color: rgb(38, 147, 198);"></i></span> Hello <stroggt5ng>World</stroggt5ng>
+                            </button>
+                        <!-- This code is comented because it is used in the page, and here just doesn't look good. -->
+                        <!-- <hr class="section-separator"> -->
+                    </div>
+                </div>
+                <div class="grey-section">
+                    <div class="middle">
+                        <div class="section-content">
+                            <div class="intro-text">
+                                I'm experienced Software Engineer with a bachelor degree in Computer Science and
+                                demonstrated history of working in the information technology and services industry.
+                                Skilled in Angular, AngularJS, SQL, JavaScript, TypeScript, ReactJS and ASP.NET MVC.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="section-title">SKILLS</div>
+                    <div class="middle">
+                        <div class="section-content">
+                            <div class="tech-knowledge-list">
+                                <div class="tech">Angular</div>
+                                <div class="tech">AngularJS</div>
+                                <div class="tech">ReactJS</div>
+                                <div class="tech">ASP.NET Razor Pages</div>
+                                <div class="tech">C#</div>
+                                <div class="tech">.NET (Core)</div>
+                                <div class="tech">ASP.NET MVC/WebAPI</div>
+                                <div class="tech">Visual Studio Code</div>
+                                <div class="tech">Visual Studio</div>
+                                <div class="tech">Git</div>
+                                <div class="tech">Azure DevOps</div>
+                                <div class="tech">SCRUM</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <footer id="footer">
+                <div class="middle">
+                    Copyright &copy; <span id="current-year"></span> Matea Popovska
+                </div>
+            </footer>
+        </main>
+    </div>
+
+
+
+
+
+    <script src="./scripts/main.js"></script>
+
+</body>
+
+</html>

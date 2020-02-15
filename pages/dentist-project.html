@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta name="description" content="Front-end Developer">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../favicon.png">
+    <title>Home - Matea Popovska</title>
+    <link rel="stylesheet" href="../css/main.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div id="wrapper">
+        <main id="content">
+            <header id="header">
+                <nav>
+                    <a class="menu-item" href="../index.html">About</a>
+                    <a class="menu-item" href="./cv.html">My CV</a>
+                    <div class="menu-item dropdown">
+                        <span class="dropbtn active">Projects
+                            <i class="fa fa-caret-down"></i>
+                        </span>
+                        <div class="dropdown-content">
+                            <a href="./bus-project.html" class="dropdown-item">Bus Ticketing</a>
+                            <a href="./dentist-project.html" class="dropdown-item active">CRM Practice Aquisition</a>
+                        </div>
+                    </div>
+            </header>
+
+            <div id="home-page" class="page">
+                <div class="banner">
+                    <div class="banner-wrapper middle">
+                        <div class="banner-image-wrapper">
+                            <picture>
+                                <source type="image/webp" media="(min-width: 700px)" srcset="../images/profile.webp">
+                                <img src="../images/profile.png" class="banner-image" alt="A picture of me" />
+                            </picture>
+                        </div>
+                        <header class="banner-details">
+                            <h1 class="banner-title">Matea Popovska</h1>
+                            <div class="job-title">Front-end Developer</div>
+
+                            <p class="contact-detail">Location:</p>
+                            <span>Skopje, Macedonia</span>
+
+                            <p class="contact-detail">E-mail:</p>
+                            <span>mateapopovska@gmail.com</span>
+
+                            <p class="contact-detail">Started working:</p>
+                            <span id="work-experience"></span>
+                        </header>
+                    </div>
+                </div>
+                <div class="grey-section">
+                    <div class="social-icons-wrapper middle">
+                        <div class="social-icons">
+                            <a href="https://www.linkedin.com/in/matea-popovska-a9a03a95/" title="LinkedIn"
+                                target="_blank" rel="noopener"><i class="fa fa-linkedin-square"></i></a>
+                            <a href="https://github.com/mpopovska" title="GitHub" target="_blank" rel="noopener"><i
+                                    class="fa fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="section-title">CRM Practice Aquisition</div>
+                    <div class="middle">
+                        <div class="section-content">
+                            <div class="section-item">
+                                <div class="description">
+                                    <p>Web application for managing data for potential practice acquisitions.</p>
+                                    <p>Back-end: 
+                                        <ul>
+                                            <li>MVC .NET</li>
+                                        </ul>
+                                        <br />
+                                        Front-end:
+                                        <ul>
+                                            <li>Angular 5</li>
+                                        </ul>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <footer id="footer">
+                <div class="middle">
+                    Copyright &copy; <span id="current-year"></span> Matea Popovska
+                </div>
+            </footer>
+        </main>
+    </div>
+
+
+
+
+
+    <script src="../scripts/main.js"></script>
+
+</body>
+
+</html>
