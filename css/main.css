@@ -183,6 +183,15 @@ p:nth-child(n+2) {
     color: black;
     transform: translateY(-5px);
 }
+.button-underline {
+    border-top: 1px solid rgb(38, 147, 198);;
+    margin-top: 30px;
+    width: 25%;
+}
+.section-position {
+    position: relative;
+    text-align: center;
+}
 .dropdown {
     float: right;
     overflow: hidden;
